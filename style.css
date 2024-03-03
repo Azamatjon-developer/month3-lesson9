@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.links{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+ .links a{
+    background-color:blueviolet;
+    color:#fff;
+    padding: 15px 25px;
+    border-radius:8px;
+    cursor: pointer;
+}

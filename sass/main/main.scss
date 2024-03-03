@@ -1,0 +1,149 @@
+.cards{
+    width: 100%;
+    background-image: url(../../imgs/bg\ img\ main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .cards-info{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 45px;
+        padding-top: 100px;
+        flex-wrap: wrap;
+    }
+
+    p{
+        padding-top: 30px;
+
+    }
+    li{
+        width: 200px;
+        padding-top: 30px;
+        color:#fff;
+    }
+
+}
+@media (max-width:500px) {
+
+    .cards{
+    
+    p{
+        padding-top: 20px;
+        color: red;
+
+    }
+    li{
+    margin-left: 30px;
+}
+
+    }
+}
+
+
+.general_boxes{
+    
+    background-color:rgba(10, 9, 9, 0.781);
+    padding: 100px 180px;
+    h2{
+        color:#D4C17F;
+        font-size: 36px;
+        line-height: 47px;
+        margin-bottom: 50px;
+    }
+
+    .boxes{
+        display: flex;
+        align-content:center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        .box{
+            position: relative;
+
+            h3{
+                position: absolute;
+                bottom: 55px;
+                left: 40px;
+                color:#fff;
+
+            }
+        }
+
+        
+    }
+
+}
+
+.info_form{
+    background-image: url(../../imgs/bg\ img\ main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 180px;
+    display: flex;
+    align-content:center;
+    gap: 35px;
+
+
+
+    .info_form_left{
+        width: 530px;
+        h3{
+            color:#D4C17F;
+            font-size: 36px;
+            line-height: 49px;
+        }
+        p{
+
+            color:#fff;
+            padding-top: 40px;
+        }
+
+    }
+}
+
+.info_form_right{
+    width: 540px;
+    padding-top: 70px;
+
+    .btn{
+        padding: 12px 28px;
+    }
+
+    .form-right-desc{
+        display: flex;
+        align-items:center;
+        // gap: 30px;
+        
+
+        p{
+        padding-top: 30px;
+        width: 250px;
+        color:#E7E7E7;
+
+        }
+    }
+
+    form{
+        display: flex;
+        align-items:center;
+        gap: 30px;
+
+    }
+    input{
+        padding: 12px;
+        border:none;
+        outline: none;
+        opacity: 0.2;
+        color:#BEBEBE;
+    }
+}
+
+.section-vidio{
+    background-color:rgba(10, 9, 9, 0.781);
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

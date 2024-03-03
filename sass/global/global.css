@@ -1,0 +1,17 @@
+@import url(../footer/footer.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../navbar/navbar.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 30px 15px;
+}/*# sourceMappingURL=global.css.map */

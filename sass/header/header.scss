@@ -1,0 +1,88 @@
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../imgs/task2bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .header-top{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+
+    }
+
+    .header_button{
+        max-width: 582px;
+        margin: 0px auto;
+        padding-top: 140px;
+
+        .button_contakt{
+            display: flex;
+            align-items:center;
+            gap: 100px;
+            padding-top: 150px;
+
+            .button-left{
+                display: flex;
+                align-items:center;
+                gap: 15px;
+                color:#fff;
+
+
+            }
+
+            .button-right{
+                display: flex;
+                align-items:center;
+                gap: 15px;
+                color:#fff;
+
+            }
+        }
+        h3{
+            font-size: 48px;
+            color:#D4C17F;
+            text-align: center;
+        }
+        img{
+            padding-top: 100px;
+            padding-left: 240px;
+        }
+
+
+    }
+    
+
+    .header_logo{
+    h2{
+        font-size: 36px;
+        color:#fff;
+        line-height: 56px;
+
+
+    }     
+    p{
+        font-size: 12px;
+        color:#fff;
+        line-height: 14px;
+        letter-spacing: 2px;
+    }   
+    }
+}
+
+
+@media (max-width:1000px) {
+    .header_logo{
+        padding-left: 20px;
+        h2{
+            font-size: 20px;
+        color:red;
+
+
+
+        }
+    }
+    
+}

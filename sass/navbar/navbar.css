@@ -1,0 +1,10 @@
+nav .header-nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  letter-spacing: 2px;
+}
+nav .header-nav-items a {
+  color: #fff;
+}/*# sourceMappingURL=navbar.css.map */
